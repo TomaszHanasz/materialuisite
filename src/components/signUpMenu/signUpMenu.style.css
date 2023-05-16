@@ -1,0 +1,44 @@
+.title {
+  flex-basis: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 200px;
+  top: 50px;
+  right: 0;
+  height: 0.5em;
+  border-top: 2px solid red;
+  width: 100px;
+}
+
+.signup-form {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 50px 50px 120px 50px;
+  margin: 20px auto;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  gap: 20px;
+  border: 1px solid black;
+  background-color: white;
+  -webkit-box-shadow: 10px 10px 21px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 21px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 21px -10px rgba(0, 0, 0, 0.75);
+}
+
+.confirmBtn {
+  width: 450px;
+}
+
+.alert {
+  position: absolute;
+  bottom: 20px;
+}
